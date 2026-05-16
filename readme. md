@@ -1,0 +1,64 @@
+
+MathSolutionInspector — Step-by-Step Math Reasoning Validator
+
+MathSolutionInspector is an AI-assisted rule-based engine that analyzes student-written math solutions, verifies the correctness of each step, and detects common algebraic and symbolic errors.
+
+---
+
+📂 Project Structure
+`
+MathSolutionInspector/
+├── python/
+│   ├── inspector.py            # main validation engine
+│   ├── rule_set.py             # algebraic + symbolic rules
+│   ├── step_parser.py          # parses student steps
+│   └── demo.py                 # example usage
+│
+├── java/
+│   └── Main.java               # Java version (console-based)
+│
+└── README.md                   # documentation
+`
+
+---
+
+▶️ Running the Project
+
+Python
+1. Install Python 3.8+
+2. (Optional) install SymPy for symbolic checks:
+   `
+   pip install sympy
+   `
+3. Run the engine:
+   `
+   python inspector.py
+   `
+   or run the demo:
+   `
+   python demo.py
+   `
+
+Java
+1. Save file as Main.java
+2. Compile and run:
+   `
+   javac Main.java
+   java Main
+   `
+
+---
+
+📦 Dependencies
+- Python: none (optional: sympy for symbolic validation)  
+- Java: JDK only  
+
+---
+
+🧩 Extended Description
+MathSolutionInspector is a rule-based evaluation engine that analyzes mathematical solution steps, detects invalid transformations, and provides targeted feedback. It uses symbolic pattern-matching and algebraic rules to validate each step, making it suitable for intelligent tutoring systems, automated grading tools, and AI-driven educational platforms.
+
+---
+
+📜 License
+MIT License
